@@ -14,7 +14,9 @@ html {
 
 
 body {
-  
+  background: url(../img/obg.webp) ;
+  position: relative;
+  padding: 50px 0 100px;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -28,7 +30,8 @@ body {
   height: auto;
   letter-spacing: 0.1em;
   font-family: 'Futura';
-  background-color: #721011;
+  /*background-color: #721011;*/
+  background-color: #000000;*
 }
 
 h1 {
@@ -112,7 +115,7 @@ a {
   margin: 0 auto 15px;
   color: #000000;
   padding: 15px 1px;
-  background-color: #fefff2;
+  background-color: #ffffff;
   box-shadow: 2px 5px black;
 }
 
@@ -174,14 +177,3 @@ a {
 	margin-top:16px;
 }
 
-
-
-/**********ID SELECTORS**********/
-/*ID Selectors can only be ussed once per page*/
-/*
-
-#heading {
-  color: blue
-}
-
-*/
