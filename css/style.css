@@ -39,6 +39,7 @@ h1 {
 h2 {
   color: #ffffff;
   letter-spacing: 0em;
+  font-family: 'denton';
 }
 
 h3{
@@ -47,10 +48,12 @@ h3{
 
 p{
   color: #ffffff;
+  font-family: 'futura';
 }
 
-h4 {
-  color: #7f987b;
+h5{
+  color: #ffffff;
+  font-family: 'denton';
 }
 
 hr {
@@ -175,3 +178,10 @@ a {
 	margin-top:16px;
 }
 
+.imgtxt{
+  max-width: 550px;
+  width: 100%;
+  height: auto; 
+  padding: 0px 0px 10px;
+
+}
